@@ -1,0 +1,1 @@
+_cpp_githubdependency_init_githubdependency_args_("cpp_nl1mz_1713843760" "NAME" "simde" "URL" "github.com/NWChemEx/SimDE" "VERSION" "master" "BUILD_TARGET" "simde" "FIND_TARGET" "nwx::simde" "CMAKE_ARGS" "BUILD_TESTING=OFF" )

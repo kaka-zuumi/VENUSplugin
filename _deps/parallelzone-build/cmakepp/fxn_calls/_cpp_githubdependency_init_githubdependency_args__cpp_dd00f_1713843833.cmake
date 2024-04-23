@@ -1,0 +1,1 @@
+_cpp_githubdependency_init_githubdependency_args_("cpp_nq9bx_1713843833" "NAME" "spdlog" "URL" "github.com/gabime/spdlog" "VERSION" "ad0e89cbfb4d0c1ce4d097e134eb7be67baebb36" "BUILD_TARGET" "spdlog" "FIND_TARGET" "spdlog::spdlog" "CMAKE_ARGS" "SPDLOG_INSTALL=ON" )

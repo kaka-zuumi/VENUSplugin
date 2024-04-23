@@ -1,0 +1,1 @@
+_cpp_cmakepackagemanager_find_installed_cmakepackagemanager_desc_packagespecification_args_("cpp_wx0vg_1713843758" "_fd_tgt_tmp" "cpp_j0ybh_1713843855" "URL" "github.com/USCiLab/cereal" "VERSION" "v1.3.0" "BUILD_TARGET" "cereal" "FIND_TARGET" "cereal" "CMAKE_ARGS" "JUST_INSTALL_CEREAL=ON" )

@@ -1,0 +1,1 @@
+/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++ -fPIC  -DOMPI_SKIP_MPICXX -DOMPI_SKIP_MPICXX -O3 -DNDEBUG -shared -Wl,-soname,libutilities.so.1 -o libutilities.so.1.0.0 CMakeFiles/utilities.dir/src/utilities/printing/demangler.cpp.o  -Wl,-rpath,::::::: 

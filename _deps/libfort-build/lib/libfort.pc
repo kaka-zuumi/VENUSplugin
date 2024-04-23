@@ -1,0 +1,10 @@
+prefix=/home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/install
+exec_prefix=/home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/install
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib64
+
+Name: libfort
+Description: A simple C/C++ crossplatform library to create formatted text tables.
+Version: 0.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -lfort

@@ -1,0 +1,1 @@
+_cpp_githubdependency_init_githubdependency_args_("cpp_5vxtd_1713843959" "NAME" "libfort" "URL" "github.com/seleznevae/libfort" "VERSION" "master" "BUILD_TARGET" "fort" "FIND_TARGET" "libfort::fort" "CMAKE_ARGS" "FORT_ENABLE_TESTING=OFF" )

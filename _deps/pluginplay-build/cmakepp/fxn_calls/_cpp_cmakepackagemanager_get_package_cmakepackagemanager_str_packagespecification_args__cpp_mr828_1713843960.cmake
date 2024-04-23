@@ -1,0 +1,1 @@
+_cpp_cmakepackagemanager_get_package_cmakepackagemanager_str_packagespecification_args_("cpp_wx0vg_1713843758" "_fobd_tgt" "cpp_iwtb9_1713843959" "URL" "github.com/seleznevae/libfort" "VERSION" "master" "BUILD_TARGET" "fort" "FIND_TARGET" "libfort::fort" "CMAKE_ARGS" "FORT_ENABLE_TESTING=OFF" )

@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=/opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/bin/cmake;-P;/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/utilities-subbuild/utilities-populate-prefix/tmp/utilities-populate-gitclone.cmake
+source_dir=/home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/utilities-src
+work_dir=/home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps
+repository=https://github.com/NWChemEx/utilities
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+

@@ -1,0 +1,46 @@
+Start testing: Apr 23 04:10 UTC
+----------------------------------------------------------
+1/1 Testing: test_venus_nwchemex_plugin
+1/1 Test: test_venus_nwchemex_plugin
+Command: "/home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/test_venus_nwchemex_plugin"
+Directory: /home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build
+"test_venus_nwchemex_plugin" start time: Apr 23 04:10 UTC
+Output:
+----------------------------------------------------------
+--------------------------------------------------------------------------
+A requested component was not found, or was unable to be opened.  This
+means that this component is either not installed or is unable to be
+used on your system (e.g., sometimes this means that shared libraries
+that the component requires are unable to be found/loaded).  Note that
+PMIx stopped checking at the first component that it did not find.
+
+Host:      cn-09-05-02
+Framework: psec
+Component: munge
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+A requested component was not found, or was unable to be opened.  This
+means that this component is either not installed or is unable to be
+used on your system (e.g., sometimes this means that shared libraries
+that the component requires are unable to be found/loaded).  Note that
+PMIx stopped checking at the first component that it did not find.
+
+Host:      cn-09-05-02
+Framework: psec
+Component: munge
+--------------------------------------------------------------------------
+
+===============================================================================
+test cases: 1 | 1 passed
+assertions: - none -
+
+<end of output>
+Test time =   2.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_venus_nwchemex_plugin" end time: Apr 23 04:10 UTC
+"test_venus_nwchemex_plugin" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Apr 23 04:10 UTC

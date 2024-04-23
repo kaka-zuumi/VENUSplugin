@@ -1,0 +1,1 @@
+_cpp_githubdependency_init_githubdependency_args_("cpp_d36rn_1713843815" "NAME" "parallelzone" "URL" "github.com/NWChemEx/ParallelZone" "BUILD_TARGET" "parallelzone" "FIND_TARGET" "nwx::parallelzone" "CMAKE_ARGS" "BUILD_TESTING=OFF" )

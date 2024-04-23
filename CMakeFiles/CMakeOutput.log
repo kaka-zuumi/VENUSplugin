@@ -1,0 +1,901 @@
+The system is: Linux - 5.14.0-362.24.1.el9_3.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/apps/software/compiler/GCCcore/11.3.0/bin/c++ 
+Build flags: ;-DOMPI_SKIP_MPICXX;-DOMPI_SKIP_MPICXX
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/3.24.3/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_396fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_396fc.dir/build.make CMakeFiles/cmTC_396fc.dir/build
+gmake[1]: Entering directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o
+/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++   -DOMPI_SKIP_MPICXX -DOMPI_SKIP_MPICXX  -fPIE   -v -std=gnu++17 -o CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --with-local-prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --enable-bootstrap --with-isl=/tmp/GCCcore/11.3.0/system-system/gcc-11.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-D' 'OMPI_SKIP_MPICXX' '-D' 'OMPI_SKIP_MPICXX' '-fPIE' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_396fc.dir/'
+ /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D OMPI_SKIP_MPICXX -D OMPI_SKIP_MPICXX /opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_396fc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -fPIE -o /tmp/cclsMvvM.s
+GNU C++17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include-fixed"
+ignoring nonexistent directory "/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include
+ /opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include
+ /opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include
+ /opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include
+ /opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include
+ /opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include
+ /opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include
+ /opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include
+ /opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include
+ /opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include
+ /opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include
+ /opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include
+ /opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include
+ /opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include
+ /opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include
+ /opt/apps/software/system/OpenSSL/1.1/include
+ /opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include
+ /opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2
+ /opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include
+ /opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include
+ /opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include
+ /opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include
+ /opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include
+ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0
+ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-pc-linux-gnu
+ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward
+ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include
+ /opt/apps/software/compiler/GCCcore/11.3.0/include
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 92e70b7df785c5b62726fe4867e62269
+COLLECT_GCC_OPTIONS='-D' 'OMPI_SKIP_MPICXX' '-D' 'OMPI_SKIP_MPICXX' '-fPIE' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_396fc.dir/'
+ as -v --64 -o CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o /tmp/cclsMvvM.s
+GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/OpenSSL/1.1/lib/../lib64/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/:/opt/apps/software/system/OpenSSL/1.1/lib/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'OMPI_SKIP_MPICXX' '-D' 'OMPI_SKIP_MPICXX' '-fPIE' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_396fc
+/opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_396fc.dir/link.txt --verbose=1
+/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++  -DOMPI_SKIP_MPICXX -DOMPI_SKIP_MPICXX   -v CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_396fc 
+Using built-in specs.
+COLLECT_GCC=/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++
+COLLECT_LTO_WRAPPER=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --with-local-prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --enable-bootstrap --with-isl=/tmp/GCCcore/11.3.0/system-system/gcc-11.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/OpenSSL/1.1/lib/../lib64/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/:/opt/apps/software/system/OpenSSL/1.1/lib/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'OMPI_SKIP_MPICXX' '-D' 'OMPI_SKIP_MPICXX' '-v' '-o' 'cmTC_396fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_396fc.'
+ /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFf7KX1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_396fc /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/system/OpenSSL/1.1/lib/../lib64 -L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib -L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib -L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib -L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib -L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib -L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib -L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib -L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib -L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib -L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib -L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib -L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib -L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib -L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib -L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib -L/opt/apps/software/system/OpenSSL/1.1/lib -L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib -L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib -L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib -L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib -L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib -L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-D' 'OMPI_SKIP_MPICXX' '-D' 'OMPI_SKIP_MPICXX' '-v' '-o' 'cmTC_396fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_396fc.'
+gmake[1]: Leaving directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include]
+    add: [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include]
+    add: [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include]
+    add: [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/system/OpenSSL/1.1/include]
+    add: [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2]
+    add: [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0]
+    add: [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-pc-linux-gnu]
+    add: [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward]
+    add: [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include]
+    add: [/opt/apps/software/compiler/GCCcore/11.3.0/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include] ==> [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include] ==> [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include] ==> [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include] ==> [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include] ==> [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include] ==> [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include]
+  collapse include dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include] ==> [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/system/OpenSSL/1.1/include] ==> [/opt/apps/software/system/OpenSSL/1.1/include]
+  collapse include dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include] ==> [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2] ==> [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2]
+  collapse include dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/include/c++/11.3.0]
+  collapse include dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-pc-linux-gnu] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/include/c++/11.3.0/x86_64-pc-linux-gnu]
+  collapse include dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/include/c++/11.3.0/backward]
+  collapse include dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include]
+  collapse include dir [/opt/apps/software/compiler/GCCcore/11.3.0/include] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include;/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include;/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include;/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include;/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include;/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include;/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include;/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include;/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include;/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include;/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include;/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include;/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include;/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include;/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include;/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include;/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include;/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include;/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include;/opt/apps/software/system/OpenSSL/1.1/include;/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include;/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include;/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2;/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include;/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include;/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include;/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include;/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include;/opt/apps/software/compiler/GCCcore/11.3.0/include/c++/11.3.0;/opt/apps/software/compiler/GCCcore/11.3.0/include/c++/11.3.0/x86_64-pc-linux-gnu;/opt/apps/software/compiler/GCCcore/11.3.0/include/c++/11.3.0/backward;/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include;/opt/apps/software/compiler/GCCcore/11.3.0/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_396fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_396fc.dir/build.make CMakeFiles/cmTC_396fc.dir/build]
+  ignore line: [gmake[1]: Entering directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++   -DOMPI_SKIP_MPICXX -DOMPI_SKIP_MPICXX  -fPIE   -v -std=gnu++17 -o CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --with-local-prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --enable-bootstrap --with-isl=/tmp/GCCcore/11.3.0/system-system/gcc-11.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'OMPI_SKIP_MPICXX' '-D' 'OMPI_SKIP_MPICXX' '-fPIE' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_396fc.dir/']
+  ignore line: [ /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D OMPI_SKIP_MPICXX -D OMPI_SKIP_MPICXX /opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_396fc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -fPIE -o /tmp/cclsMvvM.s]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include]
+  ignore line: [ /opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/system/OpenSSL/1.1/include]
+  ignore line: [ /opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2]
+  ignore line: [ /opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0]
+  ignore line: [ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-pc-linux-gnu]
+  ignore line: [ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward]
+  ignore line: [ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include]
+  ignore line: [ /opt/apps/software/compiler/GCCcore/11.3.0/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 92e70b7df785c5b62726fe4867e62269]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'OMPI_SKIP_MPICXX' '-D' 'OMPI_SKIP_MPICXX' '-fPIE' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_396fc.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o /tmp/cclsMvvM.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/OpenSSL/1.1/lib/../lib64/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/:/opt/apps/software/system/OpenSSL/1.1/lib/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'OMPI_SKIP_MPICXX' '-D' 'OMPI_SKIP_MPICXX' '-fPIE' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_396fc]
+  ignore line: [/opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_396fc.dir/link.txt --verbose=1]
+  ignore line: [/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++  -DOMPI_SKIP_MPICXX -DOMPI_SKIP_MPICXX   -v CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_396fc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --with-local-prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --enable-bootstrap --with-isl=/tmp/GCCcore/11.3.0/system-system/gcc-11.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/OpenSSL/1.1/lib/../lib64/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/:/opt/apps/software/system/OpenSSL/1.1/lib/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'OMPI_SKIP_MPICXX' '-D' 'OMPI_SKIP_MPICXX' '-v' '-o' 'cmTC_396fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_396fc.']
+  link line: [ /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFf7KX1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_396fc /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/system/OpenSSL/1.1/lib/../lib64 -L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib -L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib -L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib -L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib -L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib -L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib -L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib -L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib -L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib -L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib -L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib -L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib -L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib -L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib -L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib -L/opt/apps/software/system/OpenSSL/1.1/lib -L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib -L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib -L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib -L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib -L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib -L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFf7KX1.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_396fc] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o] ==> obj [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o]
+    arg [-L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64] ==> dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64]
+    arg [-L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/system/OpenSSL/1.1/lib/../lib64] ==> dir [/opt/apps/software/system/OpenSSL/1.1/lib/../lib64]
+    arg [-L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0] ==> dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0]
+    arg [-L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64] ==> dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib] ==> dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64] ==> dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64]
+    arg [-L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib] ==> dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib]
+    arg [-L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib] ==> dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/system/OpenSSL/1.1/lib] ==> dir [/opt/apps/software/system/OpenSSL/1.1/lib]
+    arg [-L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..] ==> dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..]
+    arg [CMakeFiles/cmTC_396fc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o] ==> obj [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64] ==> [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64] ==> [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64] ==> [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/system/OpenSSL/1.1/lib/../lib64] ==> [/opt/apps/software/system/OpenSSL/1.1/lib64]
+  collapse library dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0]
+  collapse library dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib] ==> [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib] ==> [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib] ==> [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib] ==> [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib]
+  collapse library dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib] ==> [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/system/OpenSSL/1.1/lib] ==> [/opt/apps/software/system/OpenSSL/1.1/lib]
+  collapse library dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib] ==> [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o;/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib64;/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib64;/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib64;/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib64;/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64;/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib64;/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib64;/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib64;/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib64;/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib64;/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib64;/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib64;/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib64;/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib64;/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib64;/opt/apps/software/system/OpenSSL/1.1/lib64;/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib64;/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib64;/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib64;/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib64;/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib64;/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib64;/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0;/opt/apps/software/compiler/GCCcore/11.3.0/lib64;/lib64;/usr/lib64;/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib;/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib;/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib;/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib;/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib;/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib;/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib;/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib;/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib;/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib;/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib;/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib;/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib;/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib;/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib;/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib;/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib;/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib;/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib;/opt/apps/software/system/OpenSSL/1.1/lib;/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib;/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib;/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib;/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib;/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib;/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib;/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib;/opt/apps/software/compiler/GCCcore/11.3.0/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8355e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8355e.dir/build.make CMakeFiles/cmTC_8355e.dir/build
+gmake[1]: Entering directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8355e.dir/src.cxx.o
+/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -DOMPI_SKIP_MPICXX -DOMPI_SKIP_MPICXX  -fPIE -std=c++17 -o CMakeFiles/cmTC_8355e.dir/src.cxx.o -c /home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8355e
+/opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8355e.dir/link.txt --verbose=1
+/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++  -DOMPI_SKIP_MPICXX -DOMPI_SKIP_MPICXX  CMakeFiles/cmTC_8355e.dir/src.cxx.o -o cmTC_8355e 
+gmake[1]: Leaving directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/apps/software/compiler/GCCcore/11.3.0/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/3.24.3/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3454/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3454.dir/build.make CMakeFiles/cmTC_a3454.dir/build
+gmake[1]: Entering directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o
+/opt/apps/software/compiler/GCCcore/11.3.0/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o -c /opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/apps/software/compiler/GCCcore/11.3.0/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --with-local-prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --enable-bootstrap --with-isl=/tmp/GCCcore/11.3.0/system-system/gcc-11.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a3454.dir/'
+ /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1 -quiet -v /opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a3454.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccQvlfMM.s
+GNU C17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include-fixed"
+ignoring nonexistent directory "/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include
+ /opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include
+ /opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include
+ /opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include
+ /opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include
+ /opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include
+ /opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include
+ /opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include
+ /opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include
+ /opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include
+ /opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include
+ /opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include
+ /opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include
+ /opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include
+ /opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include
+ /opt/apps/software/system/OpenSSL/1.1/include
+ /opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include
+ /opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include
+ /opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2
+ /opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include
+ /opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include
+ /opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include
+ /opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include
+ /opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include
+ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include
+ /opt/apps/software/compiler/GCCcore/11.3.0/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6ad18bf84bf51fdf96dd613337db893e
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a3454.dir/'
+ as -v --64 -o CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o /tmp/ccQvlfMM.s
+GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/OpenSSL/1.1/lib/../lib64/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/:/opt/apps/software/system/OpenSSL/1.1/lib/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_a3454
+/opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3454.dir/link.txt --verbose=1
+/opt/apps/software/compiler/GCCcore/11.3.0/bin/cc  -v -rdynamic CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o -o cmTC_a3454 
+Using built-in specs.
+COLLECT_GCC=/opt/apps/software/compiler/GCCcore/11.3.0/bin/cc
+COLLECT_LTO_WRAPPER=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --with-local-prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --enable-bootstrap --with-isl=/tmp/GCCcore/11.3.0/system-system/gcc-11.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/OpenSSL/1.1/lib/../lib64/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/:/opt/apps/software/system/OpenSSL/1.1/lib/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a3454' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a3454.'
+ /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwFjpmN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a3454 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/system/OpenSSL/1.1/lib/../lib64 -L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib -L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib -L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib -L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib -L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib -L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib -L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib -L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib -L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib -L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib -L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib -L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib -L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib -L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib -L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib -L/opt/apps/software/system/OpenSSL/1.1/lib -L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib -L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib -L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib -L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib -L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib -L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a3454' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a3454.'
+gmake[1]: Leaving directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include]
+    add: [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include]
+    add: [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include]
+    add: [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/system/OpenSSL/1.1/include]
+    add: [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2]
+    add: [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include]
+    add: [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include]
+    add: [/opt/apps/software/compiler/GCCcore/11.3.0/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include] ==> [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include] ==> [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include] ==> [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include] ==> [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include] ==> [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include] ==> [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include]
+  collapse include dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include] ==> [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/system/OpenSSL/1.1/include] ==> [/opt/apps/software/system/OpenSSL/1.1/include]
+  collapse include dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include] ==> [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include] ==> [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2] ==> [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2]
+  collapse include dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include] ==> [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include] ==> [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include]
+  collapse include dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include]
+  collapse include dir [/opt/apps/software/compiler/GCCcore/11.3.0/include] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include;/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include;/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include;/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include;/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include;/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include;/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include;/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include;/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include;/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include;/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include;/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include;/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include;/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include;/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include;/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include;/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include;/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include;/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include;/opt/apps/software/system/OpenSSL/1.1/include;/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include;/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include;/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2;/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include;/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include;/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include;/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include;/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include;/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include;/opt/apps/software/compiler/GCCcore/11.3.0/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3454/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3454.dir/build.make CMakeFiles/cmTC_a3454.dir/build]
+  ignore line: [gmake[1]: Entering directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/apps/software/compiler/GCCcore/11.3.0/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o -c /opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/apps/software/compiler/GCCcore/11.3.0/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --with-local-prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --enable-bootstrap --with-isl=/tmp/GCCcore/11.3.0/system-system/gcc-11.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a3454.dir/']
+  ignore line: [ /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1 -quiet -v /opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a3454.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccQvlfMM.s]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/include]
+  ignore line: [ /opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/system/OpenSSL/1.1/include]
+  ignore line: [ /opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include/libxml2]
+  ignore line: [ /opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/include]
+  ignore line: [ /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/include]
+  ignore line: [ /opt/apps/software/compiler/GCCcore/11.3.0/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6ad18bf84bf51fdf96dd613337db893e]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a3454.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o /tmp/ccQvlfMM.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/OpenSSL/1.1/lib/../lib64/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/:/opt/apps/software/system/OpenSSL/1.1/lib/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_a3454]
+  ignore line: [/opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3454.dir/link.txt --verbose=1]
+  ignore line: [/opt/apps/software/compiler/GCCcore/11.3.0/bin/cc  -v -rdynamic CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o -o cmTC_a3454 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/apps/software/compiler/GCCcore/11.3.0/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --with-local-prefix=/opt/apps/software/compiler/GCCcore/11.3.0 --enable-bootstrap --with-isl=/tmp/GCCcore/11.3.0/system-system/gcc-11.3.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/OpenSSL/1.1/lib/../lib64/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/:/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/:/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/:/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/:/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/:/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/:/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/:/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/:/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/:/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/:/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/:/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/:/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/:/opt/apps/software/system/OpenSSL/1.1/lib/:/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/:/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/:/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/:/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/:/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/:/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/:/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/:/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a3454' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a3454.']
+  link line: [ /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwFjpmN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a3454 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64 -L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/system/OpenSSL/1.1/lib/../lib64 -L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64 -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib -L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib -L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib -L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib -L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64 -L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib -L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib -L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib -L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib -L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib -L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib -L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib -L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib -L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib -L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib -L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib -L/opt/apps/software/system/OpenSSL/1.1/lib -L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib -L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib -L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib -L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib -L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib -L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib -L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib -L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/apps/software/compiler/GCCcore/11.3.0/libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwFjpmN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a3454] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o] ==> obj [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o]
+    arg [-L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64] ==> dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64]
+    arg [-L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/system/OpenSSL/1.1/lib/../lib64] ==> dir [/opt/apps/software/system/OpenSSL/1.1/lib/../lib64]
+    arg [-L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64] ==> dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64]
+    arg [-L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0] ==> dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0]
+    arg [-L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64] ==> dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib] ==> dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64] ==> dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64]
+    arg [-L/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib] ==> dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib]
+    arg [-L/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib] ==> dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/system/OpenSSL/1.1/lib] ==> dir [/opt/apps/software/system/OpenSSL/1.1/lib]
+    arg [-L/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib] ==> dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib]
+    arg [-L/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..] ==> dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..]
+    arg [CMakeFiles/cmTC_a3454.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o] ==> obj [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib/../lib64] ==> [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64/../lib64] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib/../lib64] ==> [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib/../lib64] ==> [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/system/OpenSSL/1.1/lib/../lib64] ==> [/opt/apps/software/system/OpenSSL/1.1/lib64]
+  collapse library dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib/../lib64] ==> [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0]
+  collapse library dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib] ==> [/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64]
+  collapse library dir [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib] ==> [/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib] ==> [/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib] ==> [/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib]
+  collapse library dir [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib] ==> [/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/system/OpenSSL/1.1/lib] ==> [/opt/apps/software/system/OpenSSL/1.1/lib]
+  collapse library dir [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib] ==> [/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib] ==> [/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib] ==> [/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib] ==> [/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib]
+  collapse library dir [/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..] ==> [/opt/apps/software/compiler/GCCcore/11.3.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o;/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib64;/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib64;/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib64;/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib64;/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib64;/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib64;/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib64;/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib64;/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib64;/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib64;/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib64;/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib64;/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib64;/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib64;/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib64;/opt/apps/software/system/OpenSSL/1.1/lib64;/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib64;/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib64;/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib64;/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib64;/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib64;/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib64;/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib64;/opt/apps/software/compiler/GCCcore/11.3.0/lib/gcc/x86_64-pc-linux-gnu/11.3.0;/opt/apps/software/compiler/GCCcore/11.3.0/lib64;/lib64;/usr/lib64;/opt/apps/software/tools/libarchive/3.6.1-GCCcore-11.3.0/lib;/opt/apps/software/tools/cURL/7.83.0-GCCcore-11.3.0/lib;/opt/apps/software/devel/Boost/1.79.0-GCC-11.3.0/lib;/opt/apps/software/lib/ICU/71.1-GCCcore-11.3.0/lib;/opt/apps/software/lang/Python/3.10.4-GCCcore-11.3.0/lib;/opt/apps/software/lib/libffi/3.4.2-GCCcore-11.3.0/lib;/opt/apps/software/math/GMP/6.2.1-GCCcore-11.3.0/lib;/opt/apps/software/devel/SQLite/3.38.3-GCCcore-11.3.0/lib;/opt/apps/software/lang/Tcl/8.6.12-GCCcore-11.3.0/lib;/opt/apps/software/lib/libreadline/8.1.2-GCCcore-11.3.0/lib;/opt/apps/software/devel/ncurses/6.3-GCCcore-11.3.0/lib;/opt/apps/software/tools/bzip2/1.0.8-GCCcore-11.3.0/lib;/opt/apps/software/numlib/OpenBLAS/0.3.20-GCC-11.3.0/lib;/opt/apps/software/mpi/OpenMPI/4.1.4-GCC-11.3.0/lib;/opt/apps/software/lib/UCC/1.0.0-GCCcore-11.3.0/lib;/opt/apps/software/lib/PMIx/4.1.2-GCCcore-11.3.0/lib;/opt/apps/software/lib/libfabric/1.15.1-GCCcore-11.3.0/lib;/opt/apps/software/lib/UCX/1.12.1-GCCcore-11.3.0/lib;/opt/apps/software/lib/libevent/2.1.12-GCCcore-11.3.0/lib;/opt/apps/software/system/OpenSSL/1.1/lib;/opt/apps/software/system/hwloc/2.7.1-GCCcore-11.3.0/lib;/opt/apps/software/system/libpciaccess/0.16-GCCcore-11.3.0/lib;/opt/apps/software/lib/libxml2/2.9.13-GCCcore-11.3.0/lib;/opt/apps/software/tools/XZ/5.2.5-GCCcore-11.3.0/lib;/opt/apps/software/tools/numactl/2.0.14-GCCcore-11.3.0/lib;/opt/apps/software/tools/binutils/2.38-GCCcore-11.3.0/lib;/opt/apps/software/lib/zlib/1.2.12-GCCcore-11.3.0/lib;/opt/apps/software/compiler/GCCcore/11.3.0/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test HAS_FLTO succeeded with the following output:
+Change Dir: /home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5df06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5df06.dir/build.make CMakeFiles/cmTC_5df06.dir/build
+gmake[1]: Entering directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5df06.dir/src.cxx.o
+/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++ -DHAS_FLTO  -DOMPI_SKIP_MPICXX -DOMPI_SKIP_MPICXX  -fPIE   -flto -fno-fat-lto-objects -std=gnu++17 -o CMakeFiles/cmTC_5df06.dir/src.cxx.o -c /home/kazuumi/rsun_koastore/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5df06
+/opt/apps/software/devel/CMake/3.24.3-GCCcore-11.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5df06.dir/link.txt --verbose=1
+/opt/apps/software/compiler/GCCcore/11.3.0/bin/c++  -DOMPI_SKIP_MPICXX -DOMPI_SKIP_MPICXX  CMakeFiles/cmTC_5df06.dir/src.cxx.o -o cmTC_5df06  -flto 
+gmake[1]: Leaving directory '/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

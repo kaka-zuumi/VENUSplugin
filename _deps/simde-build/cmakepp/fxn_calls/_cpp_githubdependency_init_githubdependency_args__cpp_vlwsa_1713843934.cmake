@@ -1,0 +1,1 @@
+_cpp_githubdependency_init_githubdependency_args_("cpp_yuiuk_1713843934" "NAME" "pluginplay" "URL" "github.com/NWChemEx/pluginplay" "VERSION" "master" "BUILD_TARGET" "pluginplay" "FIND_TARGET" "nwx::pluginplay" "CMAKE_ARGS" "BUILD_TESTING=OFF" "BUILD_PYBIND11_PYBINDINGS=ON" )

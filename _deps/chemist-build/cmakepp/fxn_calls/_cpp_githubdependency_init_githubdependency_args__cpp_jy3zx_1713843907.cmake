@@ -1,0 +1,1 @@
+_cpp_githubdependency_init_githubdependency_args_("cpp_qq5r3_1713843906" "NAME" "utilities" "URL" "github.com/NWChemEx/utilities" "BUILD_TARGET" "utilities" "FIND_TARGET" "nwx::utilities" "CMAKE_ARGS" "BUILD_TESTING=OFF" )

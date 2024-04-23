@@ -1,0 +1,1 @@
+_cpp_githubdependency_init_githubdependency_args_("cpp_drjld_1713843878" "NAME" "pybind11" "URL" "github.com/pybind/pybind11" "BUILD_TARGET" "pybind11_headers" "FIND_TARGET" "pybind11::embed" "CMAKE_ARGS" "PYBIND11_INSTALL=ON" "PYBIND11_FINDPYTHON=ON" )

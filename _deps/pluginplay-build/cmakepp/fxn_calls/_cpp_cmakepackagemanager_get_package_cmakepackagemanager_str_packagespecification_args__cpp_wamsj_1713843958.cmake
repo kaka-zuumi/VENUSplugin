@@ -1,0 +1,1 @@
+_cpp_cmakepackagemanager_get_package_cmakepackagemanager_str_packagespecification_args_("cpp_wx0vg_1713843758" "_fobd_tgt" "cpp_eewxi_1713843958" "URL" "github.com/NWChemEx/utilities" "VERSION" "master" "BUILD_TARGET" "utilities" "FIND_TARGET" "nwx::utilities" "CMAKE_ARGS" "BUILD_TESTING=" )

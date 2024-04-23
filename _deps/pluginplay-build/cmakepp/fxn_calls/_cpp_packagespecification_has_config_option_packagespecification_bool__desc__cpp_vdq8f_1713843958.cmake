@@ -1,0 +1,1 @@
+_cpp_packagespecification_has_config_option_packagespecification_bool__desc_("cpp_hiobh_1713843759" "_co_has_option" "BUILD_ROCKSDB" )

@@ -1,0 +1,1 @@
+_cpp_cmakepackagemanager_install_package_cmakepackagemanager_str_args_("cpp_wx0vg_1713843758" "venus_nwchemex_plugin" "NAMESPACE" "venus_nwchemex_plugin::" )

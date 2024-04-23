@@ -1,0 +1,1 @@
+_cpp_githubdependency_init_githubdependency_args_("cpp_en1bm_1713843855" "NAME" "cereal" "URL" "github.com/USCiLab/cereal" "VERSION" "v1.3.0" "BUILD_TARGET" "cereal" "FIND_TARGET" "cereal" "CMAKE_ARGS" "JUST_INSTALL_CEREAL=ON" )

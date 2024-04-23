@@ -1,0 +1,1 @@
+_cpp_cmaizeproject_has_config_option_cmaizeproject_bool__desc_("cpp_fdbfx_1713843759" "_co_has_option" "BUILD_ROCKSDB" )

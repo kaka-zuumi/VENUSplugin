@@ -1,0 +1,1 @@
+_cpp_cmakepackagemanager_find_installed_cmakepackagemanager_desc_packagespecification_args_("cpp_wx0vg_1713843758" "_fd_tgt_tmp" "cpp_l8voe_1713843877" "URL" "github.com/pybind/pybind11" "BUILD_TARGET" "pybind11_headers" "FIND_TARGET" "pybind11::embed" "CMAKE_ARGS" "PYBIND11_INSTALL=ON" "PYBIND11_FINDPYTHON=ON" )

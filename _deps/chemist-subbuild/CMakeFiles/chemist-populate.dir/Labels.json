@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/CMakeFiles/chemist-populate"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/CMakeFiles/chemist-populate.rule"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/CMakeFiles/chemist-populate-complete.rule"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/chemist-populate-prefix/src/chemist-populate-stamp/chemist-populate-build.rule"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/chemist-populate-prefix/src/chemist-populate-stamp/chemist-populate-configure.rule"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/chemist-populate-prefix/src/chemist-populate-stamp/chemist-populate-download.rule"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/chemist-populate-prefix/src/chemist-populate-stamp/chemist-populate-install.rule"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/chemist-populate-prefix/src/chemist-populate-stamp/chemist-populate-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/chemist-populate-prefix/src/chemist-populate-stamp/chemist-populate-patch.rule"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/chemist-populate-prefix/src/chemist-populate-stamp/chemist-populate-test.rule"
+		},
+		{
+			"file" : "/mnt/lustre/koa/koastore/rsun_group/kazuumiTest1/nwchemexTEST1/nwchemex_gcc_gccNWC_automated_noprovisional_try1/VENUSplugin1/venus_nwchemex_plugin/build/_deps/chemist-subbuild/chemist-populate-prefix/src/chemist-populate-stamp/chemist-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"chemist-populate"
+		],
+		"name" : "chemist-populate"
+	}
+}
